@@ -1,0 +1,16 @@
+Who invented the C Language?
+Bjarne Stroustrup
+>Dennis Ritchie
+Linus Torvalds
+Who invented the C++ Language?
+Ken Thompson
+Ada Lovelace
+>Bjarne Stroustrup
+What company invented the C# Language?
+Apple
+>Microsoft
+Google
+What does HTML stand for?
+>Hyper Text Markup Language
+Hyper Trainer Marking Language
+Hyper Text Marketing Language
