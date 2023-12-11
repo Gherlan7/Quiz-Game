@@ -6,6 +6,7 @@ namespace Quiz_Game
     {
         static void Main(string[] args)
         {
+            //Reading the text from the txt file located in bin/Debug/net6.0
             string[] text = File.ReadAllLines("questions.txt");
 
             List<string> questions = new List<string>();
@@ -31,6 +32,7 @@ namespace Quiz_Game
                 int correctAnswerIndex = 0;
                 for (int i = 0; i < 3; i++)
                 {
+                    //All the correct answers start with ">"
                     if (answers[answersIndex].StartsWith(">"))
                     {
                         correctAnswerIndex = i + 1;
@@ -42,7 +44,7 @@ namespace Quiz_Game
                     
                     
                 }
-
+                //Exception handlings
                 try
                 {
                     int answer = int.Parse(Console.ReadLine());
@@ -66,7 +68,7 @@ namespace Quiz_Game
                 }
                
             }
-
+    
             Console.WriteLine("End of the game ! Your score was:" + score);
             if (score > questions.Count/2)
             {
